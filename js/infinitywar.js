@@ -125,7 +125,7 @@ var interval = 10000;
 
 $(document).ready(function() {
 	var currentDate = new Date();
-	var futureDate  = new Date(2018,03,27,09,00,00,00);
+	var futureDate  = new Date(2018,04,27,09,00,00,00);
 	var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
 	clock = $clock.FlipClock(diff, {
